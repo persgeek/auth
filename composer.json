@@ -1,0 +1,21 @@
+{
+    "name": "persgeek/auth",
+    "description": "Auth",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed Johari",
+            "email": "persgeek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pg\\auth\\": "src/"
+        }
+    }
+}
